@@ -4,6 +4,7 @@
     font-family: 'comfortaa', sans-serif !important;
 }
 
+/* Colores */
 .background-color-73171F { 
     background-color: #73171F;
 }
@@ -18,4 +19,21 @@
 
 .background-gg {
     background-color: #F291A3 ;
+}
+
+/* Animaciones */
+
+.card-img-top:hover{
+    animation:move 2s infinite ease-in-out;
+ }
+
+@keyframes move{
+    0% {
+ transform: scale(1) rotate(0deg);
+}
+    100% {
+   transform: scale(1.1) rotate(0.1deg);
+
+  }
+
 }
